@@ -1211,7 +1211,6 @@ sysdig_init_res sysdig_init(int argc, char **argv)
 				break;
 			case 'D':
 				inspector->set_debug_mode(true);
-				inspector->set_internal_events_mode(true);
 				inspector->set_log_stderr();
 				break;
 			case 'E':
